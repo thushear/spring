@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="28.75" y="252.0">org.springframework.aop.support.AbstractRegexpMethodPointcut</node>
+    <node x="189.0" y="1077.0">org.springframework.aop.IntroductionAdvisor</node>
+    <node x="671.3333333333334" y="914.0">org.springframework.aop.ThrowsAdvice</node>
+    <node x="438.99999999999994" y="1077.0">org.springframework.aop.framework.DefaultAopProxyFactory</node>
+    <node x="0.0" y="746.0">org.springframework.aop.aspectj.AspectJPrecedenceInformation</node>
+    <node x="233.5555555555556" y="84.0">org.springframework.aop.support.DynamicMethodMatcher</node>
+    <node x="467.5555555555556" y="84.0">org.springframework.aop.Pointcut</node>
+    <node x="51.25" y="336.0">org.springframework.aop.support.JdkRegexpMethodPointcut</node>
+    <node x="833.3333333333334" y="914.0">org.springframework.aop.AfterReturningAdvice</node>
+    <node x="0.0" y="84.0">org.springframework.aop.support.StaticMethodMatcher</node>
+    <node x="139.5" y="993.0">org.springframework.aop.Advisor</node>
+    <node x="771.25" y="830.0">org.springframework.aop.AfterAdvice</node>
+    <node x="22.5" y="499.0">org.springframework.aop.framework.AdvisedSupport</node>
+    <node x="31.5" y="667.0">org.springframework.aop.framework.ProxyFactory</node>
+    <node x="87.25" y="830.0">org.springframework.aop.aspectj.AbstractAspectJAdvice</node>
+    <node x="141.75000000000003" y="0.0">org.springframework.aop.MethodMatcher</node>
+    <node x="33.25" y="168.0">org.springframework.aop.support.StaticMethodMatcherPointcut</node>
+    <node x="471.08333333333337" y="746.0">org.aopalliance.aop.Advice</node>
+    <node x="0.0" y="1077.0">org.springframework.aop.PointcutAdvisor</node>
+    <node x="303.25" y="914.0">org.springframework.aop.MethodBeforeAdvice</node>
+    <node x="492.25" y="830.0">org.springframework.aop.DynamicIntroductionAdvice</node>
+    <node x="470.50000000000006" y="993.0">org.springframework.aop.framework.AopProxyFactory</node>
+    <node x="414.0" y="168.0">org.springframework.aop.support.ExpressionPointcut</node>
+    <node x="330.25" y="830.0">org.springframework.aop.BeforeAdvice</node>
+    <node x="630.0" y="168.0">org.springframework.aop.support.annotation.AnnotationMatchingPointcut</node>
+    <node x="54.0" y="415.0">org.springframework.aop.framework.Advised</node>
+    <node x="0.0" y="583.0">org.springframework.aop.framework.ProxyCreatorSupport</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.aop.aspectj.AbstractAspectJAdvice" target="org.springframework.aop.aspectj.AspectJPrecedenceInformation">
+      <point x="-55.75" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.AfterAdvice" target="org.aopalliance.aop.Advice">
+      <point x="0.0" y="-17.0" />
+      <point x="837.75" y="800.0" />
+      <point x="548.0833333333334" y="800.0" />
+      <point x="33.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.ThrowsAdvice" target="org.springframework.aop.AfterAdvice">
+      <point x="0.0" y="-17.0" />
+      <point x="742.3333333333334" y="889.0" />
+      <point x="804.5" y="889.0" />
+      <point x="-33.25" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.aspectj.AbstractAspectJAdvice" target="org.aopalliance.aop.Advice">
+      <point x="55.75" y="-17.0" />
+      <point x="254.5" y="800.0" />
+      <point x="482.08333333333337" y="800.0" />
+      <point x="-33.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.support.StaticMethodMatcherPointcut" target="org.springframework.aop.Pointcut">
+      <point x="69.25" y="-17.0" />
+      <point x="241.0" y="143.0" />
+      <point x="485.2222222222223" y="143.0" />
+      <point x="-35.33333333333334" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.BeforeAdvice" target="org.aopalliance.aop.Advice">
+      <point x="0.0" y="-17.0" />
+      <point x="401.25" y="810.0" />
+      <point x="504.08333333333337" y="810.0" />
+      <point x="-11.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.MethodBeforeAdvice" target="org.springframework.aop.BeforeAdvice">
+      <point x="0.0" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.PointcutAdvisor" target="org.springframework.aop.Advisor">
+      <point x="0.0" y="-17.0" />
+      <point x="84.5" y="1052.0" />
+      <point x="163.75" y="1052.0" />
+      <point x="-24.25" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.support.annotation.AnnotationMatchingPointcut" target="org.springframework.aop.Pointcut">
+      <point x="0.0" y="-17.0" />
+      <point x="764.0" y="143.0" />
+      <point x="555.8888888888889" y="143.0" />
+      <point x="35.33333333333334" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.IntroductionAdvisor" target="org.springframework.aop.Advisor">
+      <point x="0.0" y="-17.0" />
+      <point x="291.5" y="1052.0" />
+      <point x="212.25" y="1052.0" />
+      <point x="24.25" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.support.StaticMethodMatcher" target="org.springframework.aop.MethodMatcher">
+      <point x="0.0" y="-17.0" />
+      <point x="102.5" y="59.0" />
+      <point x="179.50000000000003" y="59.0" />
+      <point x="-37.75" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.DynamicIntroductionAdvice" target="org.aopalliance.aop.Advice">
+      <point x="0.0" y="-17.0" />
+      <point x="621.75" y="810.0" />
+      <point x="526.0833333333334" y="810.0" />
+      <point x="11.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.framework.AdvisedSupport" target="org.springframework.aop.framework.Advised">
+      <point x="0.0" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.support.StaticMethodMatcherPointcut" target="org.springframework.aop.support.StaticMethodMatcher">
+      <point x="-69.25" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.framework.ProxyFactory" target="org.springframework.aop.framework.ProxyCreatorSupport">
+      <point x="0.0" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.support.JdkRegexpMethodPointcut" target="org.springframework.aop.support.AbstractRegexpMethodPointcut">
+      <point x="0.0" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.framework.DefaultAopProxyFactory" target="org.springframework.aop.framework.AopProxyFactory">
+      <point x="1.1368683772161603E-13" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.AfterReturningAdvice" target="org.springframework.aop.AfterAdvice">
+      <point x="0.0" y="-17.0" />
+      <point x="940.3333333333334" y="889.0" />
+      <point x="871.0" y="889.0" />
+      <point x="33.25" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.support.ExpressionPointcut" target="org.springframework.aop.Pointcut">
+      <point x="0.0" y="-17.0" />
+      <point x="512.0" y="143.0" />
+      <point x="520.5555555555557" y="143.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.framework.ProxyCreatorSupport" target="org.springframework.aop.framework.AdvisedSupport">
+      <point x="0.0" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.support.AbstractRegexpMethodPointcut" target="org.springframework.aop.support.StaticMethodMatcherPointcut">
+      <point x="0.0" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="org.springframework.aop.support.DynamicMethodMatcher" target="org.springframework.aop.MethodMatcher">
+      <point x="0.0" y="-17.0" />
+      <point x="340.5555555555556" y="59.0" />
+      <point x="255.00000000000003" y="59.0" />
+      <point x="37.75" y="17.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.11264367816092" x="461.14669421487577" y="201.2004132231404" />
+  <SelectedNodes>
+    <node>org.springframework.aop.framework.DefaultAopProxyFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
