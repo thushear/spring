@@ -13,9 +13,13 @@ public class BeanTest {
 
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("aopbeans.xml");
-        Chinese c = context.getBean("chinese",Chinese.class);
+        //Chinese c = context.getBean("chinese",Chinese.class);
 
-        System.out.println(c.sayHello("kongm aop"));
+        //System.out.println(c.sayHello("kongm aop"));
+        Person p  = context.getBean("chinese",Person.class);
+        System.out.println(p.sayHello("interface aop"));
+        System.out.println(p.getClass());
+
     }
 
 }

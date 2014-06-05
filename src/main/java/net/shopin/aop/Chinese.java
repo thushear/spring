@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * Time: 下午2:51
  */
 @Component
-public class Chinese {
+public class Chinese implements Person{
 
 
     public String sayHello(String name){

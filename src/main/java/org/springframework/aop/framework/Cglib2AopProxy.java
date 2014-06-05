@@ -16,6 +16,8 @@
 
 package org.springframework.aop.framework;
 
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -199,8 +201,11 @@ final class Cglib2AopProxy implements AopProxy, Serializable {
 			else {
 				proxy = enhancer.create();
 			}
-
-			return proxy;
+            //FileOutputStream output = new FileOutputStream("D:\\" + proxy.getClass().getName());
+            //ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream("D:\\" + proxy.getClass().getName()));
+           // output.writeObject(proxy);
+            System.out.println(proxy.getClass().getName());
+            return proxy;
 		}
 		catch (CodeGenerationException ex) {
 			throw new AopConfigException("Could not generate CGLIB subclass of class [" +
