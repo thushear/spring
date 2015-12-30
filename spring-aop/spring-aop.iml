@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="FacetManager">
-    <facet type="Spring" name="Spring">
-      <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/test/java/org/springframework/aop/config/AopNamespaceHandlerPointcutErrorTests-pointcutDuplication.xml</file>
-          <file>file://$MODULE_DIR$/src/main/resources/aopbeans.xml</file>
-          <file>file://$MODULE_DIR$/src/test/java/org/springframework/aop/config/AopNamespaceHandlerEventTests-context.xml</file>
-          <file>file://$MODULE_DIR$/src/test/java/org/springframework/aop/scope/ScopedProxyAutowireTests-scopedAutowireFalse.xml</file>
-          <file>file://$MODULE_DIR$/src/test/java/org/springframework/aop/config/AopNamespaceHandlerEventTests-pointcutRefEvents.xml</file>
-          <file>file://$MODULE_DIR$/src/test/java/org/springframework/aop/config/AopNamespaceHandlerEventTests-pointcutEvents.xml</file>
-          <file>file://$MODULE_DIR$/src/test/java/org/springframework/aop/config/AopNamespaceHandlerPointcutErrorTests-pointcutMissing.xml</file>
-          <file>file://$MODULE_DIR$/src/test/java/org/springframework/aop/config/AopNamespaceHandlerEventTests-directPointcutEvents.xml</file>
-          <file>file://$MODULE_DIR$/src/test/java/org/springframework/aop/scope/ScopedProxyAutowireTests-scopedAutowireTrue.xml</file>
-        </fileset>
-      </configuration>
-    </facet>
-  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -47,4 +30,3 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:3.2.3.RELEASE" level="project" />
   </component>
 </module>
-
